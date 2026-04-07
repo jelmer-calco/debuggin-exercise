@@ -27,6 +27,7 @@ print("\\n--- OPDRACHT 1: BIOSCOOPTICKETS ---")
 
 tickets = ["volwassene", "kind", "kind", "volwassene", "student"]
 
+# hier zou je stepout kunnen gebruiken 
 def tel_betaalde_tickets(tickets):
     aantal = 0
     for ticket in tickets:
