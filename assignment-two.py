@@ -23,7 +23,7 @@
 # Thema: bug in for-loop
 # ============================================================
 
-print("\\n--- OPDRACHT 1: BIOSCOOPTICKETS ---")
+print("--- OPDRACHT 1: BIOSCOOPTICKETS ---")
 
 tickets = ["volwassene", "kind", "kind", "volwassene", "student"]
 
@@ -36,7 +36,8 @@ def tel_betaalde_tickets(tickets):
     return aantal
 
 # step into je komt ergens anders uit dan bij steopver 
-# doe je Step Into om in tel_betaalde_tickets te komen.
+# doe je Step Into om in tel_betaalde_tickets te komen. --> je gaat letterlijk de functie in ipv dat je hem uitvoert. (haal bulletpoints binnen functie weg)
+
 aantal_betaald = tel_betaalde_tickets(tickets)
 
 print("Aantal betaalde tickets:", aantal_betaald)
@@ -52,7 +53,7 @@ print("Aantal betaalde tickets:", aantal_betaald)
 # Thema: lijst muteren tijdens loop
 # ============================================================
 
-print("\\n--- OPDRACHT 2: CHATFILTER ---")
+print(" --- OPDRACHT 2: CHATFILTER ---")
 
 berichten = ["hoi", "spam", "welkom", "spam", "tot morgen", "spam"]
 
@@ -76,7 +77,7 @@ print("Schone berichten:", schone_berichten)
 # Thema: return op verkeerde plek in loop
 # ============================================================
 
-print("\\n--- OPDRACHT 3: WACHTWOORDCONTROLE ---")
+print(" --- OPDRACHT 3: WACHTWOORDCONTROLE ---")
 
 wachtwoord = "School2024!"
 
@@ -101,7 +102,7 @@ print("Speciaal teken gevonden:", heeft_speciaal_teken(wachtwoord))
 # Thema: indexfout in loop
 # ============================================================
 
-print("\\n--- OPDRACHT 4: QUIZ NAKIJKEN ---")
+print(" --- OPDRACHT 4: QUIZ NAKIJKEN ---")
 
 goede_antwoorden = ["A", "C", "B", "D"]
 gegeven_antwoorden = ["A", "C", "B"]
@@ -127,7 +128,7 @@ print("Score:", score)
 # Thema: verkeerde update in while-loop
 # ============================================================
 
-print("\\n--- OPDRACHT 5: VOORRAAD BIJWERKEN ---")
+print(" --- OPDRACHT 5: VOORRAAD BIJWERKEN ---")
 
 leveringen = [3, 2, 5]
 voorraad = 10
@@ -153,7 +154,7 @@ print("Nieuwe voorraad:", nieuwe_voorraad)
 # Thema: else in loop verkeerd gebruikt
 # ============================================================
 
-print("\\n--- OPDRACHT 6: AANWEZIGHEID ---")
+print(" --- OPDRACHT 6: AANWEZIGHEID ---")
 
 aanwezigen = ["Sam", "Noor", "Lina", "Milan"]
 
@@ -176,7 +177,7 @@ print("Is Lina aanwezig?", is_aanwezig("Lina", aanwezigen))
 # Thema: if/elif volgorde fout in loop
 # ============================================================
 
-print("\\n--- OPDRACHT 7: TEMPERATUURWAARSCHUWINGEN ---")
+print(" --- OPDRACHT 7: TEMPERATUURWAARSCHUWINGEN ---")
 
 temperaturen = [8, 19, 28, 35]
 
@@ -203,7 +204,7 @@ for temp in temperaturen:
 # Thema: element overslaan door verkeerde index-update
 # ============================================================
 
-print("\\n--- OPDRACHT 8: WACHTLIJST ---")
+print(" --- OPDRACHT 8: WACHTLIJST ---")
 
 wachtlijst = ["Eva", "Tom", "Sara", "Bram"]
 plaatsen_vrij = 2
@@ -235,7 +236,7 @@ print("Over op wachtlijst:", over)
 # Thema: off-by-one fout in while-loop
 # ============================================================
 
-print("\\n--- OPDRACHT 9: BUSSTOPS ---")
+print(" --- OPDRACHT 9: BUSSTOPS ---")
 
 haltes = ["Centrum", "Station", "Park", "Ziekenhuis"]
 
@@ -258,7 +259,7 @@ toon_haltes(haltes)
 # Thema: string en int door elkaar in loop
 # ============================================================
 
-print("\\n--- OPDRACHT 10: GAME SCOREBORD ---")
+print(" --- OPDRACHT 10: GAME SCOREBORD ---")
 
 scores = [10, "15", 8, "x", 12]
 
@@ -282,7 +283,7 @@ print("Hoogste score:", hoogste_score(scores))
 # Thema: teller op verkeerde plek
 # ============================================================
 
-print("\\n--- OPDRACHT 11: E-MAILCHECK ---")
+print(" --- OPDRACHT 11: E-MAILCHECK ---")
 
 emails = ["a@school.nl", "b-school.nl", "c@school.nl", "dschool.nl"]
 
@@ -307,7 +308,7 @@ print("Aantal geldige e-mails:", tel_geldige_emails(emails))
 # Thema: veel bugs in verschillende loops en condities
 # ============================================================
 
-print("\\n--- OPDRACHT 12: ESCAPEROOM ---")
+print(" --- OPDRACHT 12: ESCAPEROOM ---")
 
 spelers = ["Ana", "Bo", "Cy", "Di"]
 tijden = ["45", 52, None, "abc"]
