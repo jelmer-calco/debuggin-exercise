@@ -34,7 +34,10 @@ def tel_betaalde_tickets(tickets):
             aantal += 1
     return aantal
 
+# step into je komt ergens anders uit dan bij steopver 
+# doe je Step Into om in tel_betaalde_tickets te komen.
 aantal_betaald = tel_betaalde_tickets(tickets)
+
 print("Aantal betaalde tickets:", aantal_betaald)
 
 # DEBUGVRAGEN

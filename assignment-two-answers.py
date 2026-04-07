@@ -14,6 +14,10 @@ def tel_betaalde_tickets(tickets):
             aantal += 1
     return aantal
 
+# or "student" is een niet-lege string
+# if ticket in ["volwassene", "student"]:
+# Niet-lege strings zijn altijd True in een boolean context
+
 
 # ============================================================
 # OPDRACHT 2 — CHATFILTER
