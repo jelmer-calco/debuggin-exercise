@@ -17,7 +17,7 @@
 # Alleen: de data bevat fouten → het programma crasht.
 
 # ============================================================
-# FOUTE DATA (REALISTISCHER)
+# FOUTE DATA  
 # ============================================================
 
 producten = ["brood", "melk", "eieren", "kaas", "sap"]
